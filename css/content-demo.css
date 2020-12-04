@@ -1,0 +1,79 @@
+.main-content {
+  background-color: black;
+  width: 100vw;
+  height: 100vw;
+  margin-top: 100vh;
+}
+.about {
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 144px;
+  font-weight: 800;
+
+}
+
+.loz{
+  
+  position: absolute;
+  width: 100vw;
+  margin-top: 0;
+  top:35vh;
+  text-align: center;
+  font-family:  'Montserrat';
+  font-size: 96px;
+  color:white;
+}
+
+.owl-dots{
+  display:none;
+}
+
+.element{
+  height: 120px;
+  width: 240px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sec-element{
+  height: 200px;
+  width: 320px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.third-element{
+  height: 300px;
+  width: 460px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.help-screen{
+  width:100vw;
+  height: 100vh;
+  background-color:#3EAE9A;
+}
+
+.help-text{
+  display: inline-block;
+  width: 100vw;
+  margin-left: 0px;
+  text-align: center;
+  color:black;
+  position: absolute;
+  top:50%;
+  transform-origin: center;
+  transform:translate(-50%, -50%);
+  font-family: "Nanum Pen Script";
+  font-size: 96px;
+}
+.help-text::after{
+  content: "help";
+  color: white;
+}
+
+.help-screen{
+  position: relative;
+  text-align: center;
+}

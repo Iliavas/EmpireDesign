@@ -1,0 +1,103 @@
+@font-face{
+  font-family: "SegoUI";
+  src: url("/fonts/SegoeUI-Bold.ttf");
+}
+
+*{
+  transition: 0.3s;
+}
+
+body{
+  background-color: black;
+  padding:0px;
+  margin:0px;
+  overflow:hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.design-decor-header{
+  height: 15px;
+  width:100%;
+  background: linear-gradient(90deg, #20E3B2 0%, #12BDBD 100%);
+}
+
+.logos{
+  margin-top: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.logo{
+  display: inline-block;
+}
+
+.menu{
+  float:right;
+}
+
+.main-content{
+  display: block;
+  text-align:center;
+  margin-top: 20vh;
+  font-family:Work sans;
+  line-height: 8vw;
+}
+
+.empire{
+  color:white;
+  font-size: 15vw;
+  padding:0px;
+  margin:0px;
+}
+
+.design{
+  color:white;
+  font-size: 13vw;
+  padding:0px;
+  margin:0px;
+  color: #20E3B2
+}
+
+.description{
+  display: block;
+  color:white;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-relief;
+  line-height: 30px;
+}
+
+.btn{
+  margin-top: 3%;
+  font-family: 'SegoUI';
+  font-size: 34px;
+  border: none;
+  padding: 14px 41px;
+  color:white;
+  border-radius: 32.5px;
+  background: linear-gradient(90deg, #18CEB9 0%, #18CEB9 100%);
+}
+.btn:hover{
+  box-shadow: 0px 0px 36px -6px #18CEB9;;
+
+}
+
+.decor-rect{
+  position: absolute;
+  width:170px;
+  height:170px;
+  background: linear-gradient(90deg, #20E3B2 0%, #12BDBD 100%);
+  filter: blur(3px);
+  transform: rotate(116deg);
+}
+
+
+.a{
+  margin-top: 100vh;
+  margin-bottom: 100vh;
+  background-color:  white;
+}
