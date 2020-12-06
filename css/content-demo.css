@@ -9,7 +9,7 @@
   font-family: 'Montserrat';
   font-size: 144px;
   font-weight: 800;
-
+  margin-bottom: 50vh;
 }
 
 .loz{
@@ -21,6 +21,7 @@
   text-align: center;
   font-family:  'Montserrat';
   font-size: 96px;
+  font-weight: 700;
   color:white;
 }
 
@@ -64,9 +65,10 @@
   position: absolute;
   top:50%;
   transform-origin: center;
-  transform:translate(-50%, -50%);
   font-family: "Nanum Pen Script";
   font-size: 96px;
+  transform:translate(-50%, -50%);
+
 }
 .help-text::after{
   content: "help";
@@ -76,4 +78,175 @@
 .help-screen{
   position: relative;
   text-align: center;
+}
+
+.descr{
+  display:grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.text-descr{
+  vertical-align: middle;
+  line-height: 206%;
+  font-size: 2vw;
+  font-family: Public Sans;
+  color: #F2F2F2;
+  text-align: left;
+}
+
+.btn-descr{
+  position: relative;
+  display: block;
+  left: 0px;
+  display: inline;
+  border-radius: 32.5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #18CEB9;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 1vw;
+  padding: 1vw 2vh;
+  
+}
+
+.main-descr{
+  padding: 0% 5%;
+  text-align: left;
+  padding-top: 40%;
+}
+
+.logo-order-text{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7vw;
+}
+
+.logo-order-descr {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 3vw;
+}
+
+.what-we-do {
+  margin-top: 300px;
+}
+
+.what-we-do-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 71px;
+}
+
+.what-we-do-content {
+  line-height: 40px;
+  list-style-type: none;
+  padding-left: 20px;
+  display: inline-block;
+  border-style: solid;
+  border-left-width: 14px;
+  border-right-width: 0px;
+  border-image: linear-gradient(90deg, #20E3B2 0%, #12BDBD 100%) 1 100%;
+}
+
+.what-we-do-elem{
+  font-family: Work Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 69px;
+  text-align: left;
+}
+
+.to-center{
+  display: inline-block;
+  margin-left:auto;
+  margin-right: auto;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+}
+
+.order-now{
+  padding-top: 100px;
+  display: block;
+  border-radius: 32.5px;
+  margin: auto;
+  background-color: #18CEB9;
+  padding: 12px 23px;
+  border:none;
+  font-family: Work Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+  margin-bottom: 10vh;
+}
+
+.footer {
+  width:100vw;
+  height: 70vh;
+  background-color: #131318;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-gap: 20%;
+
+  font-family: Poppins;
+  line-height: 36px;
+  padding-top: 10vh;
+}
+
+.contacts {
+  font-size: 3vw;
+  text-align: left;
+  margin-left: 10vw;
+  line-height: 72px;
+}
+
+.follow-us-on{
+  display: flex;
+  font-size: 3vw;
+  flex-direction: column;
+  text-align: left;
+}
+
+.follow-us-on-text{
+  display: block;
+  text-align: left;
+  font-size: 3vw;
+  line-height: 72px;
+}
+
+.contacts-sources{
+  display: flex;
+  grid-gap: 4vw;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.info-contacts{
+  padding-top: 10vh;
+  display: block;
+  text-align: left;
+  line-height: 3vh;
+}
+.info-contacts-content{
+  line-height: 7vh;
+  font-size: 2vw;
+}
+
+.follow-us{
+  display: inline-block;
+}
+
+.contacts-sources-content{
+  width: 3vw;
 }

@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600;700;800&display=swap" rel="stylesheet">  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-
-
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css" rel="stylesheet">
 
@@ -21,7 +21,7 @@
 <body>
   <style>
     body{
-      overflow:visible;
+      overflow-y:visible;
       color: white;
     }
   </style>
@@ -49,38 +49,132 @@
     <div class="about rellax" data-rellax-speed="2">
       WITH <span style="color:#12BDBD">US</span>
     </div>
-    <div class="slider my-slider" style="height:160px;">
-      <div class="element"></div>
-      <div class="element"></div>
-      <div class="element"></div>
-      <div class="element"></div>
-      <div class="element"></div>
-      <div class="element"></div>
+    <div class="carousels rellax" data-rellax-speed="1">
+      <div class="slider my-slider" style="height:160px;">
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+      </div>
+  
+      <div class="slider my-slider-two" style="height:260px;">
+        <div class="sec-element"></div>
+        <div class="sec-element"></div>
+        <div class="sec-element"></div>
+        <div class="sec-element"></div>
+        <div class="sec-element"></div>
+        <div class="sec-element"></div>
+      </div>
+  
+      <div class="slider my-slider-three">
+        <div class="third-element"></div>
+        <div class="third-element"></div>
+        <div class="third-element"></div>
+        <div class="third-element"></div>
+        <div class="third-element"></div>
+        <div class="third-element"></div>
+      </div>
     </div>
+  
 
-    <div class="slider my-slider-two" style="height:260px;">
-      <div class="sec-element"></div>
-      <div class="sec-element"></div>
-      <div class="sec-element"></div>
-      <div class="sec-element"></div>
-      <div class="sec-element"></div>
-      <div class="sec-element"></div>
-    </div>
-
-    <div class="slider my-slider-three">
-      <div class="third-element"></div>
-      <div class="third-element"></div>
-      <div class="third-element"></div>
-      <div class="third-element"></div>
-      <div class="third-element"></div>
-      <div class="third-element"></div>
-    </div>
-
-    <div class="help-screen">
+    <div class="help-screen rellax" data-rellax-speed="2">
       <p class="help-text">We're here to </p>
     </div>
 
+    <div class="descr rellax" data-rellax-speed="1">
+      <div class="decor-rect" style="left:-120px; transform:rotate(76deg);"></div>
+      <div class="main-descr">
+        <div class="main-content-descr">
+          <div class="text-descr">
+            We are here to help you start your own <span style="color:#12BDBD">
+              business</span>. 
+              The <span style="color:#12BDBD">
+                design</span> is one of the most <span style="color:#12BDBD">
+                  important</span> parts here.
+          </div>
+          <button class="btn-descr">
+            Read more
+            <img src="svg/arrow.svg" alt="" style="height:1vh ;width:1vw;">
+          </button>
+        </div>
+      </div>
+      <div class="img-descr" style="">
+        <img src="svg/main-logo.svg" alt="" style="display: block; width:50vw;">
+      </div>
+      <div class="decor-rect" style="bottom:-20px; right:30%;
+      width:100px; height: 100px; filter:blur(1px); transform:rotate(112deg)"></div>
+    </div>
+
+    <div class="logo-order">
+      <div class="logo-order-text">
+        Order a <span style="color:#12BDBD">Logo</span> now
+      </div>
+      <div class="logo-order-descr">
+        and not only a logo
+      </div>
+      <div class="decor-rect" style="position: relative; left:300px; transform:rotate(45deg);
+      bottom:-100px;"></div>
+    </div>
+
+    <div class="what-we-do">
+      <div class="what-we-do-text">
+        What we do:
+      </div>
+      <div class="to-center">
+        <ul class="what-we-do-content" style="padding-left: 20px;
+        padding-right: 300px;">
+          <li class="what-we-do-elem">3D MODELING</li>
+          <li class="what-we-do-elem">ILLUSTRATING</li>
+          <li class="what-we-do-elem">BRANDING</li>
+          <li class="what-we-do-elem">WEB DEV</li>
+        </ul>
+  
+        <ul class="what-we-do-content" style="padding-left:20px;">
+          <li class="what-we-do-elem">3D MODELING</li>
+          <li class="what-we-do-elem">ILLUSTRATING</li>
+          <li class="what-we-do-elem">BRANDING</li>
+          <li class="what-we-do-elem">WEB DEV</li>
+        </ul>
+
+      </div>
+      
+      <button class="order-now">
+        ORDER NOW
+      </button>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="contacts">
+        <span>Contact us</span>
+        
+        <br>
+        <span style="font-size: 1vw;">empiredesigns2k20@gmail.com</span>
+      </div>
+      <div class="follow-us">
+        <div class="follow-us-on-text">
+          <span style="color:#12BDBD">Follow</span>
+           Us On
+        </div>
+        <div class="contacts-sources">
+          <img src="svg/instagram.svg" class="contacts-sources-content" alt="">
+          <img src="svg/facebook.svg" class="contacts-sources-content" alt="">
+          <img src="svg/discord.svg" class="contacts-sources-content" alt="">
+        </div>
+        <ul class="info-contacts">
+          <li class="info-contacts-content">Works</li>
+          <li class="info-contacts-content">About Us</li>
+          <li class="info-contacts-content">Contact us</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+    </div>
+
   </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="scripts/rellax.min.js"></script>
   <script src="carousel.js">
