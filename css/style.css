@@ -101,3 +101,19 @@ body::-webkit-scrollbar {
   margin-bottom: 100vh;
   background-color:  white;
 }
+
+.order-now{
+  padding-top: 100px;
+  display: block;
+  border-radius: 32.5px;
+  margin: auto;
+  background-color: #18CEB9;
+  padding: 12px 23px;
+  border:none;
+  font-family: Work Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+  margin-bottom: 10vh;
+}
